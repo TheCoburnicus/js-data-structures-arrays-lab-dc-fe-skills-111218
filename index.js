@@ -26,13 +26,13 @@ function appendDriver(name) {
 
 function prependDriver(name) {
   const copyOfDrivers = [...drivers];
-  copyOfDrivers.unshift(name)
+  copyOfDrivers.unshift(name);
   return copyOfDrivers;
 }
 
 function removeLastDriver(name) {
   const copyOfDrivers = [...drivers];
-  copyOfDrivers.pop(name)
+  copyOfDrivers.pop(name);
   return copyOfDrivers;
 }
 
