@@ -38,5 +38,6 @@ function removeLastDriver(name) {
 
 function removeFirstDriver(name) {
   const copyOfDrivers = [...drivers];
-  copyOfDrivers.pop(name)
+  copyOfDrivers.push(name);
   return copyOfDrivers;
+}
