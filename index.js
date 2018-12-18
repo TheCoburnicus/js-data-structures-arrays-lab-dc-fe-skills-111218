@@ -20,7 +20,7 @@ function destructivelyRemoveFirstDriver(name) {
 let arr1 = [...arr2];
 
 function appendDriver(name) {
-  const copyOfDrivers = [...drivers];
+  const copyOfDrivers = [...drivers, name];
   return copyOfDrivers;
 }
 
