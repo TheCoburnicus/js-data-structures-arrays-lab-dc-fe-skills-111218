@@ -24,7 +24,7 @@ function appendDriver(name) {
   return copyOfDrivers;
 }
 
-let arr1 = [...arr3]
+let arr1 = [...arr3];
 function prependDriver(name) {
   const copyOfDrivers = [...drivers, name];
   return copyOfDrivers;
